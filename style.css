@@ -13,8 +13,42 @@
     font-size: 20px;
     padding:10px 20px;
     border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color:white;
+    border-radius: 5px;
+    color: #fd6e0a;
+    font-size: 20px;
+    padding:10px 20px;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* section  */
+.section-content{
+    padding-bottom: 30px;
+}
+.section-content h2{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-content p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 155px;
+    text-align: center;
+}
+/* header  */
 header{
     background-color: red;
 }
@@ -28,8 +62,6 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 8px 0;
     align-items: center;
 }
@@ -46,4 +78,66 @@ ul li a{
     font-weight: 400;
     color: #474747;
     text-decoration: none;
+}
+
+
+/* hero  */
+.hero{
+    background-color: #FFF8F3;
+    padding-top: 40px;
+    /* background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+.hero-content{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left h5{
+ font-weight: 600;
+ font-size: 40px;
+ color: #474747;
+}
+.hero-left h2{
+ font-weight: 700;
+ font-size: 60px;
+ line-height: 1;
+}
+.hero-left p{
+  padding-top: 20px;
+  color: #757575;
+  padding-right: 100px;
+}
+.hero-btn{
+    padding-top: 30px;
+}
+.hero-right{
+    
+}
+/* about  */
+.about{
+    padding: 130px 0;
+}
+.about-main{
+    background-color: #FFF8F3;
+    padding: 120px 60px;
+}
+.about-content{
+    text-align: center;
+}
+.about-list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-list p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.about-list h3{
+    font-weight: 700;
+    color: #474747;
 }
