@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+header{
+    background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
